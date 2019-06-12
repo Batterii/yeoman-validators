@@ -1,0 +1,25 @@
+{
+	"name": "@batterii/yeoman-validators",
+	"version": "0.0.0",
+	"description": "Validators for Batterii Yeoman generators",
+	"author": "Batterii, LLC",
+	"license": "UNLICENSED",
+	"repository": "github:Batterii/yeoman-validators",
+	"files": [
+		"lib"
+	],
+	"main": "lib/index.js",
+	"scripts": {
+		"lint": "eslint .",
+		"lintf": "eslint --fix .",
+		"docs": "documentation build lib/index.js -f md -o docs.md",
+		"preversion": "npm run lint",
+		"version": "npm run docs && git add docs.md",
+		"prepublishOnly": "git push && git push --tags"
+	},
+	"devDependencies": {
+		"@batterii/eslint-config-node": "^1.0.5",
+		"documentation": "^11.0.0",
+		"eslint": "^5.16.0"
+	}
+}
