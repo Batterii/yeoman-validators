@@ -18,8 +18,8 @@
 		"prepublishOnly": "git push && git push --tags"
 	},
 	"devDependencies": {
-		"@batterii/eslint-config-node": "^1.0.5",
-		"documentation": "^11.0.0",
+		"@batterii/eslint-config-node": "^1.1.0",
+		"documentation": "^12.0.1",
 		"eslint": "^5.16.0"
 	}
 }
