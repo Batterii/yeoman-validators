@@ -1,6 +1,6 @@
 {
 	"name": "@batterii/yeoman-validators",
-	"version": "0.0.1",
+	"version": "0.1.0",
 	"description": "Validators for Batterii Yeoman generators",
 	"author": "Batterii, LLC",
 	"license": "MIT",
