@@ -3,7 +3,7 @@
 	"version": "0.0.1",
 	"description": "Validators for Batterii Yeoman generators",
 	"author": "Batterii, LLC",
-	"license": "UNLICENSED",
+	"license": "MIT",
 	"repository": "github:Batterii/yeoman-validators",
 	"files": [
 		"lib"
